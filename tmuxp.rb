@@ -8,8 +8,8 @@ class Tmuxp < Formula
   license "MIT"
   head "https://github.com/tmux-python/tmuxp.git"
 
-  depends_on "tmux"
   depends_on "python@3.9"
+  depends_on "tmux"
 
   # tmuxp dependencies
   # see:https://github.com/tmux-python/tmuxp/blob/master/pyproject.toml
