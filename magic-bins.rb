@@ -1,7 +1,4 @@
 class MagicBins < Formula
-  # Magic (Bin)arie(s) for everyday use.
-  # Formula containing personal shell scripts
-
   desc "Magic (Bin)arie(s) for everyday use."
   homepage "https://github.com/jvcarli/magic-bins/"
   url "https://github.com/jvcarli/magic-bins.git"
@@ -12,7 +9,6 @@ class MagicBins < Formula
   depends_on "buku"
   depends_on "fzf"
   depends_on "tmux"
-  depends_on "firefox"
 
   def install
 
