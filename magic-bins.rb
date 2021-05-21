@@ -5,6 +5,7 @@ class MagicBins < Formula
   desc "Magic (Bin)arie(s) for everyday use."
   homepage "https://github.com/jvcarli/magic-bins/"
   url "https://github.com/jvcarli/magic-bins.git"
+  version "0.1"
   sha256 ""
   license "MIT"
 
