@@ -40,7 +40,7 @@ class Tmuxp < Formula
     sha256 "14296b62db260420d4600dcd805408ea908b3a78d4ea0a6a403d092fdbf6d075"
   end
 
-  depends_on "python@3.x"
+  depends_on "python@3.9"
 
   def install
     virtualenv_install_with_resources
