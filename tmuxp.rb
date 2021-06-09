@@ -6,7 +6,6 @@ class Tmuxp < Formula
   url "https://files.pythonhosted.org/packages/e3/c3/1a5fc7b78aa331b46dcb862708dd3749768b10fc60b0c4fe5c29bfaad824/tmuxp-1.7.2.tar.gz"
   sha256 "14296b62db260420d4600dcd805408ea908b3a78d4ea0a6a403d092fdbf6d075"
   license "MIT"
-  head "https://github.com/tmux-python/tmuxp.git"
 
   depends_on "python@3.9"
   depends_on "tmux"
