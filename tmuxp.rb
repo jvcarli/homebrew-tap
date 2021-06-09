@@ -42,7 +42,6 @@ class Tmuxp < Formula
   end
 
   test do
-    #  TODO: function for invoking tmuxp tests
-    system "false"
+    assert_match version.to_s, shell_output("#{bin}/tmuxp --version")
   end
 end
