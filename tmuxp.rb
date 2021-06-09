@@ -53,9 +53,7 @@ class Tmuxp < Formula
           - echo hello
     EOS
 
-    cd testpath do
-      system bin/"tmuxp", "debug-info"
-      system bin/"tmuxp", "convert", "--yes", "test_session.yaml"
-    end
+    system bin/"tmuxp", "debug-info"
+    system bin/"tmuxp", "convert", "--yes", "test_session.yaml"
   end
 end
