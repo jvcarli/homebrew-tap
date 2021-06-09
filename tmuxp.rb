@@ -43,5 +43,18 @@ class Tmuxp < Formula
 
   test do
     assert_match version.to_s, shell_output("#{bin}/tmuxp --version")
+
+    (testpath/"test_session.yaml").write <<~EOS
+      session_name: 2-pane-vertical
+      windows:
+      - window_name: my test window
+        panes:
+          - echo hello
+          - echo hello
+    EOS
+
+    cd testpath do
+      system bin/"tmuxp", "convert", "--yes", "test_session.yaml"
+    end
   end
 end
